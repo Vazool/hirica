@@ -1,0 +1,89 @@
+Build a multi-page React web app for Hirica, a gamified graduate-skills assessment platform.
+
+## Tech stack
+
+- React + Vite
+- Tailwind CSS
+- React Router
+- Simple React state only (no Redux, no backend)
+- Clean UI, rounded cards, soft shadows, spacing-lg
+ 
+## Implement these 11 screens:
+
+1.  Landing Page
+2.  Student Sign-Up
+3.  Student Sign-In
+4.  Student Dashboard
+5.  Profile Summary
+6.  Skills Assessment
+7.  AI Mock Interview
+8.  Feedback Page
+9.  Employer Sign-Up
+10. Employer Sign-In
+11. Employer Dashboard
+
+## Navigation
+
+Use React Router. All pages must link correctly. Provide a minimal sidebar for student dashboard pages.
+
+## Data handling
+
+- Store mock student + employer profile in React state only
+- No backend
+- Sign-in pages must validate ONLY these test accounts:
+-- Student: fred.flintstone@bedrock.com
+-- Employer: hr@rocksupplies.com
+- Other emails → show “Invalid test account”
+
+## LLM calls
+
+Use a placeholder async function that returns dummy text. Do NOT integrate an actual API.
+
+## Skills Assessment Page
+
+- Three modes visible:
+-- Speak to AI (disabled; labelled Coming Soon)
+-- Chat with AI (disabled; Coming Soon)
+-- Classic Questionnaire (fully implemented with static questions)
+- Questionnaire should save a mock score and redirect to Feedback Page
+
+## Mock Interview Page
+
+- 3 generic competency questions
+- Text box input
+- “Analyse Answer” triggers the dummy LLM function and displays output
+
+## Feedback Page
+
+- Show mock skill levels
+- Show mock behavioural badge
+- Call dummy LLM function to generate summary
+
+## Employer Dashboard
+
+- Text area for job description
+- “Generate Match” → display mock candidate list + static similarity scores
+
+## Colour Tokens (HEX)
+
+primary: #157A6E
+secondary: #499F68
+accent1: #B4654A
+accent2: #77B28C
+neutral: #C2C5BB
+background: #FFFFFF
+
+## Colour rules
+
+- Primary for buttons/CTAs
+- Never use primary as a full-page background
+- Hero section must be white or near-white, light, spacious
+
+## Project constraints
+
+- NO backend
+- NO auth
+- NO persistent storage
+- NO audio/video
+- NO drag-and-drop
+- Keep everything clean and minimal
