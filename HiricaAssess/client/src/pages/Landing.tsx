@@ -23,9 +23,9 @@ export default function Landing() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                  Level-up,
+                  Level-up. Get hired.
                   <br />
-                  <span className="text-primary">Get hired.</span>
+                  <span className="text-primary">Master your skills.</span>
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-xl">
                   Hirica transforms graduate job hunting through gamified assessments, AI-powered mock interviews, and intelligent employer matching. Practice, improve, and get hired.
