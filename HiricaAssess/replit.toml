@@ -1,8 +1,0 @@
-[run]
-command = "cd client && npm run dev"
-
-[env]
-PORT = "5173"
-
-[interpreter]
-use = "Nodejs"
