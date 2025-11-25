@@ -13,7 +13,7 @@ export default function LandingPage() {
             <img
               src={hiricaLogo}
               alt="Hirica logo"
-              className="w-12 h-12 object-contain"
+              className="w-18 h-18 object-contain"
             />
             <h1 className="text-5xl font-bold text-[#1E3A8A]">Hirica</h1>
           </div>
