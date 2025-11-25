@@ -9,7 +9,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-white">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <div className="flex items-center justify-center gap-1 mb-4">
+          <div className="flex items-center justify-center gap-0 mb-4">
             <img
               src={hiricaLogo}
               alt="Hirica logo"
