@@ -29,6 +29,7 @@ A web-based prototype for Hirica, where students prove their skills once and sha
 - React + TypeScript
 - React Router for navigation
 - Tailwind CSS for styling
+- Vercel for web deployment
 - Anthropic Claude API for AI features (optional)
 
 ## Getting Started
@@ -69,7 +70,7 @@ npm run build
 ## Color Palette
 
 - Primary: #1E3A8A (Deep Blue)
-- Secondary: #499F68 (Green)
+- Secondary: #20D4EE (Light blue) - NEW
 - Accent1: #B4654A (Terra Cotta)
 - Accent2: #77B28C (Sage Green)
 - Neutral: #C2C5BB (Warm Gray)
